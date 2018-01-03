@@ -1,0 +1,10 @@
+C:\Users\sip\CustomAPIClient\bin\Debug\netcoreapp2.0\CustomAPIClient.deps.json
+C:\Users\sip\CustomAPIClient\bin\Debug\netcoreapp2.0\CustomAPIClient.runtimeconfig.json
+C:\Users\sip\CustomAPIClient\bin\Debug\netcoreapp2.0\CustomAPIClient.runtimeconfig.dev.json
+C:\Users\sip\CustomAPIClient\bin\Debug\netcoreapp2.0\CustomAPIClient.dll
+C:\Users\sip\CustomAPIClient\bin\Debug\netcoreapp2.0\CustomAPIClient.pdb
+C:\Users\sip\CustomAPIClient\obj\Debug\netcoreapp2.0\CustomAPIClient.csproj.CoreCompileInputs.cache
+C:\Users\sip\CustomAPIClient\obj\Debug\netcoreapp2.0\CustomAPIClient.AssemblyInfoInputs.cache
+C:\Users\sip\CustomAPIClient\obj\Debug\netcoreapp2.0\CustomAPIClient.AssemblyInfo.cs
+C:\Users\sip\CustomAPIClient\obj\Debug\netcoreapp2.0\CustomAPIClient.dll
+C:\Users\sip\CustomAPIClient\obj\Debug\netcoreapp2.0\CustomAPIClient.pdb

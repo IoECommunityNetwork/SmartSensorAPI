@@ -1,0 +1,10 @@
+C:\Users\sip\SmartSensorAPIModule\obj\Debug\netcoreapp2.0\SmartSensorAPIModule.csproj.CoreCompileInputs.cache
+C:\Users\sip\SmartSensorAPIModule\obj\Debug\netcoreapp2.0\SmartSensorAPIModule.AssemblyInfoInputs.cache
+C:\Users\sip\SmartSensorAPIModule\obj\Debug\netcoreapp2.0\SmartSensorAPIModule.AssemblyInfo.cs
+C:\Users\sip\SmartSensorAPIModule\bin\Debug\netcoreapp2.0\SmartSensorAPIModule.deps.json
+C:\Users\sip\SmartSensorAPIModule\bin\Debug\netcoreapp2.0\SmartSensorAPIModule.runtimeconfig.json
+C:\Users\sip\SmartSensorAPIModule\bin\Debug\netcoreapp2.0\SmartSensorAPIModule.runtimeconfig.dev.json
+C:\Users\sip\SmartSensorAPIModule\bin\Debug\netcoreapp2.0\SmartSensorAPIModule.dll
+C:\Users\sip\SmartSensorAPIModule\bin\Debug\netcoreapp2.0\SmartSensorAPIModule.pdb
+C:\Users\sip\SmartSensorAPIModule\obj\Debug\netcoreapp2.0\SmartSensorAPIModule.dll
+C:\Users\sip\SmartSensorAPIModule\obj\Debug\netcoreapp2.0\SmartSensorAPIModule.pdb

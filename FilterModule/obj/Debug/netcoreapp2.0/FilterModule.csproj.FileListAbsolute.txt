@@ -1,0 +1,10 @@
+C:\Users\sip\FilterModule\obj\Debug\netcoreapp2.0\FilterModule.csproj.CoreCompileInputs.cache
+C:\Users\sip\FilterModule\obj\Debug\netcoreapp2.0\FilterModule.AssemblyInfoInputs.cache
+C:\Users\sip\FilterModule\obj\Debug\netcoreapp2.0\FilterModule.AssemblyInfo.cs
+c:\Users\sip\FilterModule\bin\Debug\netcoreapp2.0\FilterModule.deps.json
+c:\Users\sip\FilterModule\bin\Debug\netcoreapp2.0\FilterModule.runtimeconfig.json
+c:\Users\sip\FilterModule\bin\Debug\netcoreapp2.0\FilterModule.runtimeconfig.dev.json
+C:\Users\sip\FilterModule\bin\Debug\netcoreapp2.0\FilterModule.dll
+C:\Users\sip\FilterModule\bin\Debug\netcoreapp2.0\FilterModule.pdb
+C:\Users\sip\FilterModule\obj\Debug\netcoreapp2.0\FilterModule.dll
+C:\Users\sip\FilterModule\obj\Debug\netcoreapp2.0\FilterModule.pdb
