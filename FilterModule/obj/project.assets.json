@@ -7636,9 +7636,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sip\\FilterModule\\FilterModule.csproj",
+      "projectUniqueName": "c:\\Users\\sip\\FilterModule\\FilterModule.csproj",
       "projectName": "FilterModule",
-      "projectPath": "C:\\Users\\sip\\FilterModule\\FilterModule.csproj",
+      "projectPath": "c:\\Users\\sip\\FilterModule\\FilterModule.csproj",
       "packagesPath": "C:\\Users\\sip\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\sip\\FilterModule\\obj\\",
       "projectStyle": "PackageReference",

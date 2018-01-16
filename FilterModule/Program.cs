@@ -23,7 +23,7 @@ namespace FilterModule
             // The Edge runtime gives us the connection string we need -- it is injected as an environment variable
             string connectionString = Environment.GetEnvironmentVariable("EdgeHubConnectionString");
             
-            connectionString = "HostName=IOTAA-Course-IOTHub.azure-devices.net;GatewayHostName=siwin6.lrha0ktazqkuzg3ydukinat5fe.qx.internal.cloudapp.net;DeviceId=SimulatedDevice;ModuleId=filterModule;SharedAccessKey=pn8GxSyVqNwRzFd2l1bm5wU3D+WAKKZb2/0Ul5qY8YM=";
+           // connectionString = "HostName=IOTAA-Course-IOTHub.azure-devices.net;GatewayHostName=siwin6.lrha0ktazqkuzg3ydukinat5fe.qx.internal.cloudapp.net;DeviceId=SimulatedDevice;ModuleId=filterModule;SharedAccessKey=pn8GxSyVqNwRzFd2l1bm5wU3D+WAKKZb2/0Ul5qY8YM=";
             Console.WriteLine("Connection String -->: " + connectionString);
 
 
@@ -148,24 +148,26 @@ namespace FilterModule
 
         byte[] messageBytes = message.GetBytes();
         string messageString = Encoding.UTF8.GetString(messageBytes);
-        Console.WriteLine($"Received message {counterValue}: [{messageString}]");
+        //Console.WriteLine($"Received message {counterValue}: [{messageString}]");
 
         // Get message body
-        var messageBody = JsonConvert.DeserializeObject<MessageBody>(messageString);
+       // var messageBody = JsonConvert.DeserializeObject<MessageBody>(messageString);
 
-        if (messageBody != null && messageBody.machine.temperature > temperatureThreshold)
-        {
-            Console.WriteLine($"Machine temperature {messageBody.machine.temperature} " +
-                $"exceeds threshold {temperatureThreshold}");
+       // if (messageBody != null && messageBody.machine.temperature > temperatureThreshold)
+       // {
+           // Console.WriteLine($"Machine temperature {messageBody.machine.temperature} " +
+           //     $"exceeds threshold {temperatureThreshold}");
             var filteredMessage = new Message(messageBytes);
-            foreach (KeyValuePair<string, string> prop in message.Properties)
-            {
-                filteredMessage.Properties.Add(prop.Key, prop.Value);
+            //foreach (KeyValuePair<string, string> prop in message.Properties)
+            //{
+                
+            //}
+            for(int i=0; i<=100; i++){
+            filteredMessage.Properties.Add(i.ToString(), "Test Attribute ----> " + i.ToString());
             }
-
             filteredMessage.Properties.Add("MessageType", "Alert");
             await deviceClient.SendEventAsync("output1", filteredMessage);
-        }
+        
 
         // Indicate that the message treatment is completed
         return MessageResponse.Completed;
